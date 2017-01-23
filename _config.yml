@@ -4,21 +4,21 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme, with instant search'
+title:            HazCod
+tagline:          'Security Engineer by day, Tinkerer by night'
 description:      'The popular <a href="http://hyde.getpoole.com/" target="_blank">Hyde theme</a> for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, now with instant-search capabilities. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://www.algolia.com/" target="_blank">Algolia</a>'
-url:              https://github.com/algolia/algoliasearch-jekyll-hyde
-baseurl:          /algoliasearch-jekyll-hyde
+url:              https://hazcod.github.io/
+baseurl:          /
 # Travis will install Bundler dependencies in ./vendor, so we need to exclude it
 # otherwise Jekyll will try to build it (and fail)
 exclude:          [vendor]
 
 author:
-  name:           'Algolia'
-  url:            https://www.algolia.com/
+  name:           'HazCod'
+  url:            https://www.github.com/HazCod
 # Thanks to @mdo for the original theme
 # author:
 #   name:           'Mark Otto'
@@ -30,7 +30,7 @@ paginate:         5
 version:          2.1.0
 
 github:
-    repo:         https://github.com/algolia/algoliasearch-jekyll-hyde
+    repo:         https://github.com/HazCod/hazcod.github.io
 
 # Algolia
 gems:
